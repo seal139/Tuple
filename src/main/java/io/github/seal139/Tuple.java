@@ -1,10 +1,11 @@
-package com.github.seal139;
+package io.github.seal139;
 
 /**
- * Base class of Tuple. <br/> Tuple value are immutable
+ * Base class of Tuple. Tuple value are immutable
  * 
  * @author Septian Pramana R
  *
+ * @param <K> Key element
  */
 public abstract class Tuple<K> implements Comparable<Tuple<K>> {
     protected final K k;
@@ -12,7 +13,7 @@ public abstract class Tuple<K> implements Comparable<Tuple<K>> {
     /**
      * Initialize Tuple key
      * 
-     * @param k
+     * @param k 1st element as a key
      */
     public Tuple(K k) {
         this.k = k;
@@ -39,7 +40,9 @@ public abstract class Tuple<K> implements Comparable<Tuple<K>> {
     }
 
     /**
-     * @return the k
+     * Return the 1st element
+     * 
+     * @return object of 1st element
      */
     public K getK() { return this.k; }
 }
