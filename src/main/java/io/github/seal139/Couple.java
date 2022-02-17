@@ -23,7 +23,9 @@ public final class Couple<K, A> extends Tuple<K> {
     }
 
     /**
-     * @return the 2nd element
+     * Return the 2nd element
+     * 
+     * @return object of 2nd element
      */
     public A getA() { return this.a; }
 }

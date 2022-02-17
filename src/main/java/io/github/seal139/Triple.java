@@ -30,12 +30,17 @@ public final class Triple<K, A, B> extends Tuple<K> {
     }
 
     /**
-     * @return the 2nd element
+     * Return the 2nd element
+     * 
+     * @return object of 2nd element
      */
     public A getA() { return this.a; }
 
     /**
-     * @return the 3rd element
+     * Return the 3rd element
+     * 
+     * @return object of 3rd element
      */
     public B getB() { return this.b; }
+
 }

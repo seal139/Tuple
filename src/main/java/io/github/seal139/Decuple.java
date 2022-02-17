@@ -58,47 +58,65 @@ public final class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
     }
 
     /**
-     * @return the 2nd element
+     * Return the 2nd element
+     * 
+     * @return object of 2nd element
      */
     public A getA() { return this.a; }
 
     /**
-     * @return the 3rd element
+     * Return the 3rd element
+     * 
+     * @return object of 3rd element
      */
     public B getB() { return this.b; }
 
     /**
-     * @return the 4th element
+     * Return the 4th element
+     * 
+     * @return object of 4th element
      */
     public C getC() { return this.c; }
 
     /**
-     * @return the 5th element
+     * Return the 5th element
+     * 
+     * @return object of 5th element
      */
     public D getD() { return this.d; }
 
     /**
-     * @return the 6th element
+     * Return the 6th element
+     * 
+     * @return object of 6th element
      */
     public E getE() { return this.e; }
 
     /**
-     * @return the 7th element
+     * Return the 7th element
+     * 
+     * @return object of 7th element
      */
     public F getF() { return this.f; }
 
     /**
-     * @return the 8th element
+     * Return the 8th element
+     * 
+     * @return object of 8th element
      */
     public G getG() { return this.g; }
 
     /**
-     * @return the 9th element
+     * Return the 9th element
+     * 
+     * @return object of 9th element
      */
     public H getH() { return this.h; }
 
     /**
-     * @return the 10th element
+     * Return the 10th element
+     * 
+     * @return object of 10th element
      */
     public I getI() { return this.i; }
 }

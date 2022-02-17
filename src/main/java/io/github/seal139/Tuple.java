@@ -1,8 +1,7 @@
 package io.github.seal139;
 
 /**
- * Base class of Tuple. <br/>
- * Tuple value are immutable
+ * Base class of Tuple. Tuple value are immutable
  * 
  * @author Septian Pramana R
  *
@@ -21,8 +20,7 @@ public abstract class Tuple<K> implements Comparable<Tuple<K>> {
     }
 
     @Override
-    @SuppressWarnings({
-            "unchecked", "rawtypes" })
+    @SuppressWarnings({"unchecked", "rawtypes" })
     public int compareTo(Tuple<K> o) {
         // If K is comparable, we simple compare them
         if (this.k instanceof Comparable<?>) {
@@ -42,7 +40,9 @@ public abstract class Tuple<K> implements Comparable<Tuple<K>> {
     }
 
     /**
-     * @return the 1st element
+     * Return the 1st element
+     * 
+     * @return object of 1st element
      */
     public K getK() { return this.k; }
 }

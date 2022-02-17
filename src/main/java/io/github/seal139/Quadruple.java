@@ -34,17 +34,23 @@ public final class Quadruple<K, A, B, C> extends Tuple<K> {
     }
 
     /**
-     * @return the 2nd element
+     * Return the 2nd element
+     * 
+     * @return object of 2nd element
      */
     public A getA() { return this.a; }
 
     /**
-     * @return the 3rd element
+     * Return the 3rd element
+     * 
+     * @return object of 3rd element
      */
     public B getB() { return this.b; }
 
     /**
-     * @return the 4th element
+     * Return the 4th element
+     * 
+     * @return object of 4th element
      */
     public C getC() { return this.c; }
 }
