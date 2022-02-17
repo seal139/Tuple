@@ -1,25 +1,23 @@
 /**
  * 
  */
-package seal.tuple;
+package com.github.seal139;
 
 /**
- * Tuple of 8 elements
+ * Tuple of 6 elements
  * 
  * @author Septian Pramana R
  *
  */
-public class Octuple<K, A, B, C, D, E, F, G> extends Tuple<K> {
+public class Sextuple<K, A, B, C, D, E> extends Tuple<K> {
     private final A a;
     private final B b;
     private final C c;
     private final D d;
     private final E e;
-    private final F f;
-    private final G g;
 
     /**
-     * Initialize Octuple
+     * Initialize Sextuple
      * 
      * @param k
      * @param a
@@ -27,18 +25,14 @@ public class Octuple<K, A, B, C, D, E, F, G> extends Tuple<K> {
      * @param c
      * @param d
      * @param e
-     * @param f
-     * @param g
      */
-    public Octuple(K k, A a, B b, C c, D d, E e, F f, G g) {
+    public Sextuple(K k, A a, B b, C c, D d, E e) {
         super(k);
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
         this.e = e;
-        this.f = f;
-        this.g = g;
     }
 
     /**
@@ -65,14 +59,4 @@ public class Octuple<K, A, B, C, D, E, F, G> extends Tuple<K> {
      * @return the e
      */
     public E getE() { return this.e; }
-
-    /**
-     * @return the f
-     */
-    public F getF() { return this.f; }
-
-    /**
-     * @return the g
-     */
-    public G getG() { return this.g; }
 }

@@ -1,41 +1,35 @@
 /**
  * 
  */
-package seal.tuple;
+package com.github.seal139;
 
 /**
- * Tuple of 7 elements
+ * Tuple of 5 elements
  * 
  * @author Septian Pramana R
  *
  */
-public class Septuple<K, A, B, C, D, E, F> extends Tuple<K> {
+public class Quintuple<K, A, B, C, D> extends Tuple<K> {
     private final A a;
     private final B b;
     private final C c;
     private final D d;
-    private final E e;
-    private final F f;
 
     /**
-     * Initialize Septuple
+     * Initialize Quintuple
      * 
      * @param k
      * @param a
      * @param b
      * @param c
      * @param d
-     * @param e
-     * @param f
      */
-    public Septuple(K k, A a, B b, C c, D d, E e, F f) {
+    public Quintuple(K k, A a, B b, C c, D d) {
         super(k);
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
-        this.e = e;
-        this.f = f;
     }
 
     /**
@@ -57,14 +51,4 @@ public class Septuple<K, A, B, C, D, E, F> extends Tuple<K> {
      * @return the d
      */
     public D getD() { return this.d; }
-
-    /**
-     * @return the e
-     */
-    public E getE() { return this.e; }
-
-    /**
-     * @return the f
-     */
-    public F getF() { return this.f; }
 }

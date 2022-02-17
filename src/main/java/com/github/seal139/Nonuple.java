@@ -1,15 +1,15 @@
 /**
  * 
  */
-package seal.tuple;
+package com.github.seal139;
 
 /**
- * Tuple of 10 elements
+ * Tuple of 9 elements
  * 
  * @author Septian Pramana R
  *
  */
-public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
+public class Nonuple<K, A, B, C, D, E, F, G, H> extends Tuple<K> {
     private final A a;
     private final B b;
     private final C c;
@@ -18,10 +18,9 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
     private final F f;
     private final G g;
     private final H h;
-    private final I i;
 
     /**
-     * Initialize Decuple
+     * Initialize Nonuple
      * 
      * @param k
      * @param a
@@ -32,9 +31,8 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
      * @param f
      * @param g
      * @param h
-     * @param i
      */
-    public Decuple(K k, A a, B b, C c, D d, E e, F f, G g, H h, I i) {
+    public Nonuple(K k, A a, B b, C c, D d, E e, F f, G g, H h) {
         super(k);
         this.a = a;
         this.b = b;
@@ -44,7 +42,6 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
         this.f = f;
         this.g = g;
         this.h = h;
-        this.i = i;
     }
 
     /**
@@ -86,9 +83,4 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
      * @return the h
      */
     public H getH() { return this.h; }
-
-    /**
-     * @return the i
-     */
-    public I getI() { return this.i; }
 }

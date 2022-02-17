@@ -1,4 +1,4 @@
-package seal.tuple;
+package com.github.seal139;
 
 /**
  * Base class of Tuple. <br/> Tuple value are immutable

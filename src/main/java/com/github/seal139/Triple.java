@@ -1,7 +1,7 @@
 /**
  * 
  */
-package seal.tuple;
+package com.github.seal139;
 
 /**
  * Tuple of 3 elements
