@@ -1,15 +1,25 @@
 /**
  * 
  */
-package com.github.seal139;
+package io.github.seal139;
 
 /**
  * Tuple of 10 elements
  * 
  * @author Septian Pramana R
  *
+ * @param <K> 1st tuple element
+ * @param <A> 2nd tuple element
+ * @param <B> 3rd tuple element
+ * @param <C> 4th tuple element
+ * @param <D> 5th tuple element
+ * @param <E> 6th tuple element
+ * @param <F> 7th tuple element
+ * @param <G> 8th tuple element
+ * @param <H> 9th tuple element
+ * @param <I> 10th tuple element
  */
-public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
+public final class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
     private final A a;
     private final B b;
     private final C c;
@@ -23,16 +33,16 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
     /**
      * Initialize Decuple
      * 
-     * @param k
-     * @param a
-     * @param b
-     * @param c
-     * @param d
-     * @param e
-     * @param f
-     * @param g
-     * @param h
-     * @param i
+     * @param k : 1st element object
+     * @param a : 2nd element object
+     * @param b : 3rd element object
+     * @param c : 4th element object
+     * @param d : 5th element object
+     * @param e : 6th element object
+     * @param f : 7th element object
+     * @param g : 8th element object
+     * @param h : 9th element object
+     * @param i : 10th element object
      */
     public Decuple(K k, A a, B b, C c, D d, E e, F f, G g, H h, I i) {
         super(k);
@@ -48,47 +58,47 @@ public class Decuple<K, A, B, C, D, E, F, G, H, I> extends Tuple<K> {
     }
 
     /**
-     * @return the a
+     * @return the 2nd element
      */
     public A getA() { return this.a; }
 
     /**
-     * @return the b
+     * @return the 3rd element
      */
     public B getB() { return this.b; }
 
     /**
-     * @return the c
+     * @return the 4th element
      */
     public C getC() { return this.c; }
 
     /**
-     * @return the d
+     * @return the 5th element
      */
     public D getD() { return this.d; }
 
     /**
-     * @return the e
+     * @return the 6th element
      */
     public E getE() { return this.e; }
 
     /**
-     * @return the f
+     * @return the 7th element
      */
     public F getF() { return this.f; }
 
     /**
-     * @return the g
+     * @return the 8th element
      */
     public G getG() { return this.g; }
 
     /**
-     * @return the h
+     * @return the 9th element
      */
     public H getH() { return this.h; }
 
     /**
-     * @return the i
+     * @return the 10th element
      */
     public I getI() { return this.i; }
 }
