@@ -1,18 +1,14 @@
- <h1><b>Tuple</b></h1>
-Provide a simple Tuple class.
-
-<h3>Description</h3>
+# Description
 A tuple is an object which is contains multiple value(of any type).
 All of the tuple implementation in this libraries are inherited directly from base class named Tuple<K>. 
 
-The first object index in the tuple are called K or key which is the base data for comparable purpose.
-if K in the generic parameter are object from comparable, we will use the default compare function of object K. Otherwise, we will use the HashCode for comparation.
-please note that data contained in a tuple are immutable which is you cannot replace the data upon construction.
+In this libary, the first object index in the tuple are called K or key which is the base data for comparation purpose.
+if K in the generic parameter are instance of Comparable interface, we will use the default compare function of object K. Otherwise, we will use the HashCode for comparation.
+Please note that data contained in a tuple are immutable.
 
-<h3>How to Use</h3>
-  
-If you think this library is usefull, you can use it for your program by simply download the source code attached in this repository, or you can set up your maven project
-
+# Add Dependency
+ 
+1. Maven
 ```
   <dependency>
     <groupId>io.github.seal139</groupId>
@@ -20,10 +16,19 @@ If you think this library is usefull, you can use it for your program by simply 
     <version>1.0.1</version>
   </dependency>
  ```
+2. Gradle
+ ```
+ dependencies {
+  compile group: 'io.github.seal139', name: 'tuple', version: '1.0.1'
+}
+ ```
+3. Jar Direct Download
+ ```
+  https://repo.maven.apache.org/maven2/io/github/seal139/tuple/1.0.1/tuple-1.0.1-sources.jar
+ ```
+ 
   
-or directly download from https://repo.maven.apache.org/maven2/io/github/seal139/tuple/1.0.1/tuple-1.0.1-sources.jar
-  
-<h3>Code Snippet</h3>
+# Code Snippet
  
   ```
   package test;
