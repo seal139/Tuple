@@ -19,10 +19,18 @@ Please note that data contained in a tuple are immutable.
 2. Gradle
  ```
  dependencies {
-  compile group: 'io.github.seal139', name: 'tuple', version: '1.0.1'
+  implementation 'io.github.seal139:tuple:1.0.1'
 }
  ```
-3. Jar Direct Download
+3. Scala SBT
+ ```
+  libraryDependencies += "io.github.seal139" % "tuple" % "1.0.1"
+ ```
+4. Ivy
+ ```
+  <dependency org="io.github.seal139" name="tuple" rev="1.0.1" />
+ ```
+5. Jar Direct Download
  ```
   https://repo.maven.apache.org/maven2/io/github/seal139/tuple/1.0.1/tuple-1.0.1-sources.jar
  ```
